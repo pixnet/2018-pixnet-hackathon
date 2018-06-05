@@ -14,7 +14,7 @@
 ```
 這顆草莓瑞士捲，草莓沾著奶油吃起來香濃滑口，酸酸甜甜，搭配巧克力蛋糕，滋味絕妙。
 ```
-<img src="./static/草莓瑞士捲missing.jpg" width="500" align="middle">
+<img src="./static/strawberrycake-missing.jpg" width="500" align="middle">
 
 ### 題目內容包含：
 
