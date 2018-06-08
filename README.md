@@ -1,15 +1,15 @@
 <h3 align="center" style="color: blue;">PIXNET 年度駭客盛事</h3>
 <h1 align="center">第五屆 PIXNET HACKATHON</h1>
 <h3 align="center">打造智慧生活共榮圈</h3>
-<h3 align="center">2018</h3>
-<h3 align="center">8/18 (六) ~ 8/19（日</h3>
-2018 第五屆 PIXNET HACKATHON 將於8/18~8/19 登場！AI 人工智慧和物聯網技術，遇上生活真實數據，將激發多少創新應用？歡迎各界駭客高手前來挑戰，攜手打造智慧生活共榮圈！
+<h3 align="center">2018/8/18 (六) ~ 2018/8/19（日)</h3>
+
+<h1 align="left">“</h1>
+<h4 align="center">2018 第五屆 PIXNET HACKATHON 將於8/18~8/19 登場！<br>AI 人工智慧和物聯網技術，遇上生活真實數據，將激發多少創新應用？<br>歡迎各界駭客高手前來挑戰，攜手打造智慧生活共榮圈！</h4>
+<h1 align="right">”</h1>
 
 
 ## 活動簡介
 
-<p align="center">AI 人工智慧不只是未來想像，而正在翻轉你我的生活樣貌。</p>
-<p align="center">IoT 物聯網技術結合生活真實數據，將激發多少創新應用？</p>
 
 PIXNET 秉持 Open Data 精神，從2014年起每年持續舉辦 PIXNET HACKATHON，開放旗下「痞客邦」網站去識別化、社群巨量資料，旨在創造更多智慧的生活應用。2018年第五屆 PIXNET HACKATHON，擴大活動規模為兩天一夜，並與「台灣人工智慧實驗室 AILabs.tw」、「臺北智慧城市專案辦公室」等機構合作，期待透過產官學資源及技術交流，激盪出更多創意發想、可行方案。歡迎各界優秀技術團隊前來挑戰，創造科技更大應用價值，「智慧生活共榮圈」由你實現！
 
