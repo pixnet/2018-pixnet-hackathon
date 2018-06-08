@@ -1,4 +1,4 @@
-#AILabs.tw 中文語音辨識系統:「雅婷Yating」
+# AILabs.tw 中文語音辨識系統:「雅婷Yating」
 
 ### 系統簡介：
 
