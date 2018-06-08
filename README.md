@@ -1,9 +1,8 @@
-<h3 align="center" style="color: blue;">PIXNET 年度駭客盛事</h3>
 <h1 align="center">第五屆 PIXNET HACKATHON</h1>
 <h3 align="center">打造智慧生活共榮圈</h3>
 <h3 align="center">2018/8/18 (六) ~ 2018/8/19（日)</h3>
 
-<h3 align="center">2018 第五屆 PIXNET HACKATHON 將於8/18~8/19 登場！<br>AI 人工智慧和物聯網技術，遇上生活真實數據，將激發多少創新應用？<br>歡迎各界駭客高手前來挑戰，攜手打造智慧生活共榮圈！</h3>
+<h3 align="center">AI 人工智慧和物聯網技術，遇上生活真實數據，將激發多少創新應用？<br>歡迎各界駭客高手前來挑戰，攜手打造智慧生活共榮圈！</h3>
 
 
 ## 活動簡介
