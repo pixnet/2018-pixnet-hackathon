@@ -2,7 +2,9 @@
 <h3 align="center">打造智慧生活共榮圈</h3>
 <h3 align="center">2018/8/18 (六) ~ 2018/8/19（日)</h3>
 
-<h3 align="center">AI 人工智慧和物聯網技術，遇上生活真實數據，將激發多少創新應用？<br>歡迎各界駭客高手前來挑戰，攜手打造智慧生活共榮圈！</h3>
+<p align="center">AI 人工智慧和物聯網技術<br>遇上生活真實數據<br>將激發多少創新應用<br>歡迎各界駭客高手前來挑戰<br>攜手打造智慧生活共榮圈</p>
+
+<h3 align="center"><a href="https://pixnet.kktix.cc/events/pixnethackthon2018">報名頁面</a></h3>
 
 
 ## 活動簡介
@@ -112,3 +114,5 @@ PIXNET 秉持 Open Data 精神，從2014年起每年持續舉辦 PIXNET HACKATHO
 	c. 參賽者得自由選擇是否提供個人資料或行使個人資料保護法第三條所定之權利，但如提供資料不足或有其他冒用、盜用、不實之情形，參賽者可能因此無法參加本活動及影響各項相關服務或權益。
 	
 	d. 參賽者就其個人資料依個人資料保護法第三條之規定，請求停止蒐集、處理或利用或請求刪除前，主辦單位得依循個人資料保護法及相關法令之規定，於個人資料提供之範圍與目的內使用該等個人資料。
+
+<h3 align="center"><a href="https://pixnet.kktix.cc/events/pixnethackthon2018">報名頁面</a></h3>
