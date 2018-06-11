@@ -1,5 +1,5 @@
 ### 關注本專案以獲取更新訊息
-![](static/followme.png)
+![](static/followme.png)
 
 
 <h1 align="center">第五屆 PIXNET HACKATHON</h1>
