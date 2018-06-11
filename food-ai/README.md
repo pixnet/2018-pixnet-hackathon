@@ -75,7 +75,7 @@
 <a name="how-to-battle"></a>
 ### 比賽方式
 * 平台示意圖:
-`TODO`: ⚠️準備中
+`TODO`: ⚠️準備中
 
 1. 比賽以 **回合制** 進行，無分初、決賽，一共 `20` 個回合，總計 `20` 張圖片。
 2. 每一回合競賽平台會更新一組題目，並呈現在頁面上。
@@ -104,9 +104,9 @@
 	* `description`: 圖片中食物的文字描述
 	* `image_b64`: 圖片的 base64 編碼
 
-* 詳細 API 說明請參考[ API 文件說明](../opendata/food.competition.api.md)
+* 詳細 API 說明請參考[ API 文件說明](../opendata/food.competition.api.md)
 
-* ⚠️NOTE：目前 API 尚在開發階段，仍可能調整，請參賽者密切注意。
+* ⚠️NOTE：目前 API 尚在開發階段，仍可能調整，請參賽者密切注意。
 
 
 4. 當題目公布，參賽隊伍須 **主動** 透過平台 API，下載題目進行分析並生成完整影像。
@@ -145,7 +145,7 @@
 
 
 ### API說明
-請參考[ API 文件說明](../opendata/food.competition.api.md)
+請參考[ API 文件說明](../opendata/food.competition.api.md)
 
 
 ## 參考閱讀
