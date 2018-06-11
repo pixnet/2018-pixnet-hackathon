@@ -1,3 +1,7 @@
+### 關注本專案以獲取更新訊息
+![](static/followme.png)
+
+
 <h1 align="center">第五屆 PIXNET HACKATHON</h1>
 <h3 align="center">打造智慧生活共榮圈</h3>
 <h3 align="center">2018/8/18 (六) ~ 2018/8/19（日)</h3>
