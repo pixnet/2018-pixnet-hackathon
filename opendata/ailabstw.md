@@ -117,5 +117,6 @@ client <- server
 
 ```
 
-範例程式碼請參考 [demo.py](./demo.py)
+範例程式碼請參考: 
+⚠️準備中
 
