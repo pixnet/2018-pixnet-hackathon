@@ -8,9 +8,10 @@
 ![](static/voicekit.png)
 Voice Kit 是由 Google 所開發，AIY project 的子項目，硬體主要為一組 **Raspberry Pi Zero WH** 與一張音效驅動擴充板(Voice HAT)，整合了簡易的周邊如喇叭、麥克風與 GPIO，在基礎的應用中，可搭配 Google Cloud 的語音識別服務，方便開發者更快地上手，詳細的資訊可以參考[官方網站](https://aiyprojects.withgoogle.com/voice/)或是這篇[介紹文](https://makerpro.cc/2018/05/google-aiy-for-maker/)。
 
-本次 PIXNET HACKATHON 提供給參賽者的套件為台灣未上市的 **Voice Kit 2.0** 版本，預計在 **7月第四週** 提供給報名錄取的參賽隊伍，除了使用PIXNET提供的開發套件，參賽者也可以選擇使用或整合自己的軟/硬體裝置。
+本次 PIXNET HACKATHON 提供給參賽者的套件為 **Voice Kit 1.0** 版本[註1]，預計在 **7月第四週** 提供給報名錄取的參賽隊伍[註2]，除了使用PIXNET提供的開發套件，參賽者也可以選擇使用或整合自己的軟/硬體裝置。
 
-* 註: 參賽隊伍須繳交新台幣 **1500** 元保證金方可領取一組 Voice Kit 開發套件，保證金將於 **8/19** 完賽時，全額退回給現場的參賽者，Voice Kit 不用還給主辦方。
+* 註1: Google 官方目前主打的是最新版的 **Voice Kit 2.0**，然而硬體性能考量，主辦方將提供的是舊版的 Voice Kit 1.0 版本，幫助參賽者更容易上手。
+* 註2: 參賽隊伍須繳交新台幣 **1500** 元保證金方可領取一組 Voice Kit 開發套件，保證金將於 **8/19** 完賽時，全額退回給現場的參賽者，Voice Kit 不用還給主辦方。
 
 ## 語音識別
 ![](./static/ailabstw.png)
@@ -40,6 +41,8 @@ API規格請參考[說明文件](../opendata/ailabstw.md)。
 
 ### Live Demo 📹
 
+主辦方將提供若干場景與道具，方便參賽者能模擬使用情境，參賽者也能自備相關道具與其他有創意的表達方式。
+讓各組能表現出再怎麼樣的人事時地物下適合使用這個作品。
 
 本競賽項目提供兩個獎項：
 
