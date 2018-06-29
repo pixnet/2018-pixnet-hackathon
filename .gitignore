@@ -1,3 +1,9 @@
 .DS_Store
+.ipynb_checkpoints/
+__pycache__
 *.pyc
 .vscode/
+[uU]ntitled*
+*.pdf
+temp/
+test/
