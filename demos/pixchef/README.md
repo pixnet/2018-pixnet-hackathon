@@ -1,5 +1,5 @@
 # PIXCHEF
-This is a demo implementation using `Keras` of "**Globally and Locally Consistent Image Completion**".
+This is a demo `Keras` implementation of "**Globally and Locally Consistent Image Completion**".
 
 ### Quick Start
 ℹ️ We arranged all scripts be executed as module, so the `working directory` for commands should be the parent directory of this folder(`pixchef`), i.e.:
