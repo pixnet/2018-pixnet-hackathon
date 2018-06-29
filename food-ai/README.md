@@ -38,7 +38,7 @@
 
 ### 痞客邦美食資料集：PIXFOOD20
 
-**`PIXFOOD20`** 是痞客邦精選 **20+2** 個種類的美食圖庫，分類包含：
+**`PIXFOOD20`** 是痞客邦精選 **20+2** 個種類的美食圖庫，分類包含：
 
 ```
 火鍋、牛排、咖啡、丼飯、滷肉飯、
@@ -49,7 +49,7 @@
 
 **`PIXFOOD20`** 將被切分為**訓練集**(Training set)與**測試集**(Testing set)，訓練集開放給所有參賽者下載，用來訓練深度學習的模型，**實際比賽題目將由測試集抽出**。
 
-詳見 [`**PIXFOOD20** 資料集說明`](../opendata/pixfood20.md)
+詳見 [**PIXFOOD20** 資料集說明](../opendata/pixfood20.md)
 
 <img src="./static/pixfood20.png" width="500" align="middle">
 
