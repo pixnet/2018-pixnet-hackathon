@@ -73,7 +73,7 @@
 `blog_url`      | 圖片所在的部落格文章連結
 `blog_url_hash` | 文章連結 hash 值
 `image_url`     | 圖片的原始連結
-`image_path`    | 下載資料夾的實際圖片路徑
+`image_path`    | 下載資料集中實際的圖片路徑
 `tag`           | 圖片的分類標籤
 `score`         | 模型所預測的信心分數
 
@@ -100,5 +100,5 @@
 
 ### 下載連結
 
-* [PIXFOOD20](https://storage.googleapis.com/2017-hackathon-data-download/2018-pixnet-hackathon/pixfood20.tar.gz)
+* ⏬[PIXFOOD20](https://storage.googleapis.com/2017-hackathon-data-download/2018-pixnet-hackathon/pixfood20.tar.gz)
 
