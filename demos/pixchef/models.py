@@ -8,7 +8,6 @@ from keras.layers import (
     Conv2D, Conv2DTranspose,
     Dense, Input
 )
-from keras.utils.layer_utils import count_params
 from keras.utils import plot_model
 from keras.layers.normalization import BatchNormalization
 from keras.layers.merge import concatenate, add, multiply
@@ -79,7 +78,8 @@ class GraphBuilder:
         except AttributeError:
             output_shape = 'multiple'
         connections = []
-        for node in layer.inbound_nodes:
+        inbound_nodes = getattr(layer, 'inbound_nodes', None) or getattr(layer, '_inbound_nodes', None)
+        for node in inbound_nodes:
             if relevant_nodes and node not in relevant_nodes:
                 # node is not part of the current network
                 continue
@@ -108,7 +108,8 @@ class GraphBuilder:
         relevant_nodes = []
         layer_num = len(model.layers)
         header = ' ' * self.intent * recursive
-        for v in model.nodes_by_depth.values():
+        nodes_by_depth = getattr(model, 'nodes_by_depth', None) or getattr(model, '_nodes_by_depth', None)
+        for v in nodes_by_depth.values():
             relevant_nodes += v
         print(header + ' ' * len(model.name))
         print(header + '* ' + model.name)
@@ -126,12 +127,11 @@ class GraphBuilder:
 
         model._check_trainable_weights_consistency()
         if hasattr(model, '_collected_trainable_weights'):
-            trainable_count = count_params(model._collected_trainable_weights)
+            trainable_count = int(np.sum([K.count_params(p) for p in set(model._collected_trainable_weights)]))
         else:
-            trainable_count = count_params(model.trainable_weights)
+            trainable_count = int(np.sum([K.count_params(p) for p in set(model.trainable_weights)]))
 
-        non_trainable_count = int(
-            np.sum([K.count_params(p) for p in set(model.non_trainable_weights)]))
+        non_trainable_count = int(np.sum([K.count_params(p) for p in set(model.non_trainable_weights)]))
 
         print(header + 'Total params: {:,}'.format(trainable_count + non_trainable_count))
         print(header + 'Trainable params: {:,}'.format(trainable_count))

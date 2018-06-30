@@ -59,7 +59,7 @@ def training(x_train, x_test=None, max_iters=1000, eval_iters=20, tc=100, td=50)
                     glcic_loss = glcic_net.train_on_batch([images, masks, bboxes], [images, real])
                     g_loss = glcic_loss[1]
                     d_loss = glcic_loss[2]
-            print(f'Iter: {i:05}\tLosses: generator: {g_loss:03.3f}, discriminator: {d_loss:03.3f}')
+            print(f'Iter: {i:05}\tLosses: generator: {g_loss:03.3f}, discriminator: {d_loss:03.3f}', flush=True)
 
             if i % eval_iters == 0 and (x_test is not None):
                 eval_images = completion_net.predict(x_test)
