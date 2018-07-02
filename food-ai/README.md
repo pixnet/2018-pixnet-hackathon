@@ -34,7 +34,7 @@
 詳細的比賽流程請參考[比賽方式](#how-to-battle)
 
 ### 範例實作
-PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/)這篇論文，提供了基本的實作範例，可參考[pixchef](../demos/pixchef/)
+PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs.waseda.ac.jp/~iizuka/projects/completion/en/)這篇論文，提供了基本的實作範例，可參考[pixchef](../demos/pixchef/)
 
 
 ## 題庫
