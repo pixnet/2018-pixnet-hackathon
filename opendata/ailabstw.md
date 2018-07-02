@@ -117,8 +117,8 @@ client <- server
 
 ```
 
-### 範例程式碼請參考:
-* [ekko](../demos/ekko/README.md)
+### 範例程式碼:
+* [ekko](../demos/ekko/)
 
 
 ### API Token 試用:

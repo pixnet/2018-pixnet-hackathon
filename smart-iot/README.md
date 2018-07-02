@@ -20,6 +20,11 @@ Voice Kit 是由 Google 所開發，AIY project 的子項目，硬體主要為�
 報名錄取的隊伍會提供一組專屬的 API Token，請妥善保管。
 API規格請參考[說明文件](../opendata/ailabstw.md)。
 
+
+## 範例實作
+請參考 [ekko](../demos/ekko/)
+
+
 ## Caffe on Raspberry
 ![](./static/relajet.png)
 
