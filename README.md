@@ -62,6 +62,9 @@ PIXNET 秉持 Open Data 精神，從2014年起每年持續舉辦 PIXNET HACKATHO
 
 ## 參賽主題及獎項​
 
+[**IoT 語音情境應用**](./smart-iot)
+[**AI 智慧影像生成**](./food-ai)
+
 ## 參賽辦法
 
 * 主辦單位保留參賽資格審查權利，於 KKTIX 平台報名後，收到 PIXNET 所寄發之錄取通知方具本屆參賽資格。
