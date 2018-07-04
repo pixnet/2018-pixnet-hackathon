@@ -1,16 +1,16 @@
-# PIXNET 熱門文章集 (預計開放日期：6/15)
+# PIXNET 熱門文章集
 
 
 ### 基本資訊
 
-項目           | 值 
+項目           | 值
 ---------------|-------
 資料筆數        | 208,743 筆
 資料格式        | jsonline
-壓縮檔大小      | -
-檔案實際大小     | -
-下載連結        | -
-樣本資料(100筆) | - 
+壓縮檔大小      | 1.2 G
+檔案實際大小     | 5.8 G
+下載連結        | [這裡](https://storage.googleapis.com/content-mining/ncku_course/released/articles_200k.jl.gz) (1.2 G)
+樣本資料(100筆) | [這裡](https://storage.googleapis.com/content-mining/ncku_course/released/samples.jl) (3 M)
 
 ### 資料範例
 ```
@@ -38,7 +38,7 @@
 
 
 ### 欄位說明
-欄位名稱        |說明                                 |資料型態 
+欄位名稱        |說明                                 |資料型態
 ---------------|------------------------------------|---------
 url            |該文章原始連結                        |String
 site_category  |文章作者選取的 PIXNET定義之文章分類，其值為 國內旅遊, 國外旅遊, 食譜分享, 美味食記, 美食情報, 美容彩妝, 時尚流行 之一。        |String
