@@ -34,14 +34,10 @@ $ python -m pixchef.models
 
     results will be placed in `temp/` folder.
 
-### Requirements
+### Requirements for Python
 
 ```
-numpy
-tensorflow>=1.0.0
-keras>=2.1.0
-scikit-image
-pydot
+$ pip install -r requirements.txt
 ```
 
 You may need [`graphviz`](https://www.graphviz.org/download/) to make `pydot` work functionally.
