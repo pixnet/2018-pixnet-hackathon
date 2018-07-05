@@ -4,7 +4,7 @@ Demo App for Voice Kit. Push the button, and say something, **ekko** will echo w
 
 ## Requirements
 
-1. Download the [customized image](https://github.com/google/aiyprojects-raspbian/releases) for `AIY Kit`, and follow install guide from [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+1. Download the [customized image](https://github.com/google/aiyprojects-raspbian/releases) for `AIY Kit`, and follow install guide from [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
 2. After installation, boot the system and follow the guide from [here](https://github.com/google/aiyprojects-raspbian/blob/aiyprojects/HACKING.md), check the driver comfigurations.
 
