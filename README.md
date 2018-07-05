@@ -11,6 +11,14 @@
 <h3 align="center"><a href="https://pixnet.kktix.cc/events/pixnethackthon2018">報名頁面</a></h3>
 
 
+## 參賽主題及獎項
+
+### [IoT 語音情境應用](./smart-iot)
+
+### [AI 智慧影像生成](./food-ai)
+
+![](./static/awards.jpg)
+
 ## 活動簡介
 
 
@@ -59,12 +67,6 @@ PIXNET 秉持 Open Data 精神，從2014年起每年持續舉辦 PIXNET HACKATHO
 
 第二階段報名：將視整體報名狀況，決定是否開放第二階段報名。
 
-
-## 參賽主題及獎項​
-
-### [IoT 語音情境應用](./smart-iot)
-
-### [AI 智慧影像生成](./food-ai)
 
 ## 參賽辦法
 

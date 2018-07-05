@@ -40,7 +40,7 @@ if __name__ == '__main__':
     completed_images = completion_net.predict([np.asarray([input_image]), input_masks])
 
     cropped_image = K.get_value(
-        glcic.discriminator_builder.cropping(filled_image, bboxes[0, ...])
+        glcic.discriminator_builder.cropping(completed_images[0, ...], bboxes[0, ...])
     )
 
     ski_io.imsave(PJ(this_dir, temp_dir, '0_reference.jpg'), input_image, quality=100)
