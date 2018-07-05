@@ -1,6 +1,6 @@
 # Ekko
 
-Demo App for Voice Kit. Push the button, and say something, `ekko` will echo what you said by gTTS.
+Demo App for Voice Kit. Push the button, and say something, **ekko** will echo what you said by gTTS.
 
 ## Requirements
 
@@ -49,4 +49,4 @@ $ pip install -r requirements.txt
     $ (cd ~/Desktop/2018-pixnet-hackathon/demos; source ~/.secrets.env; python -m ekko.main)
     ```
 
-4. Push the button, and say something, `ekko` will echo what you said by `gTTS`.
+4. Push the button, and say something, **ekko** will echo what you said by `gTTS`.
