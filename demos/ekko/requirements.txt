@@ -1,0 +1,4 @@
+RPi.GPIO
+websockets
+ujson
+numpy
