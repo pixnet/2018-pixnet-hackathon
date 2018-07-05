@@ -2,7 +2,7 @@
 This is a demo implementation of "**Globally and Locally Consistent Image Completion**".
 
 ### Quick Start
-ℹ️ We arranged all scripts be executed as module, so the working directory for commands should be the parent directory of this folder(pixchef), i.e.:
+ℹ️ We arranged all scripts to be executed as module, so the working directory for commands should be the parent directory of this folder(pixchef), i.e.:
 
 ```
 $ pwd
