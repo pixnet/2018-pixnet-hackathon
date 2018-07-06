@@ -13,7 +13,7 @@
 樣本資料(100筆) | [這裡](https://storage.googleapis.com/content-mining/ncku_course/released/samples.jl) (3 M)
 
 ### 資料範例
-```
+```json
 {
   "url": "http://phina66.pixnet.net/blog/post/55377582",
   "site_category": "美味食記",
@@ -24,6 +24,12 @@
     "majimaji",
   ],
   "body": "<table id=\"table1\" style=\"margin: 0 ...略... </small>&nbsp;</p>",
+  "comments": [
+    {
+      "body": "阿根廷主厨有工作證嗎？",
+      "reply": "我不會西班牙語沒跟他聊到天耶~~~~還是下次我換工作到徵信社時幫你查一下(其實當記者也可以歐??)"
+    }
+  ],
   "images": [
     "http://pic.pimg.tw/phina66/1388908473-3616148299_l.jpg",
     "http://pic.pimg.tw/phina66/1388908582-2565883661_l.jpg",
@@ -36,7 +42,6 @@
 
 ```
 
-
 ### 欄位說明
 欄位名稱        |說明                                 |資料型態
 ---------------|------------------------------------|---------
@@ -46,8 +51,15 @@ custom_category|使用者自行定義的文章分類                |String
 title          |文章標題                             |String
 tags           |使用者定義的所有標籤                   |List[String]
 body           |文章原始 `html` 格式內文              |String
+comments       |文章的回覆討論串，詳見 Comment 說明     |List[Comment]
 images         |文章中出現的所有圖片連結                |List[String]
 keywords       |與文章關聯的 google 搜尋關鍵字 (已抽樣) |List[String]
+
+### Comment 欄位說明
+欄位名稱        |說明                                 |資料型態
+---------------|------------------------------------|---------
+body           |一般使用者對該篇文章的留言              |String
+reply          |文章作者對留言的回答(可能為空值: `null`) |String
 
 
 ## 資料使用授權
