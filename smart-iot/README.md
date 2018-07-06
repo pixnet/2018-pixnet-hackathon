@@ -5,7 +5,7 @@
 第五屆 PIXNET HACKATHON 以「IoT 語音情境應用」為主題，**智慧旅遊**為方向，**PIXNET**邀請各界高手從資料中發掘問題，設計創新的解決方案，讓更多元的應用情境成為可能。
 
 ## Voice Kit
-![](static/voicekit.png)
+![](static/voicekit.jpg)
 Voice Kit 是由 Google 所開發，AIY project 的子項目，硬體主要為一組 **Raspberry Pi 3 model B+** 與一張音效驅動擴充板(Voice HAT)，整合了簡易的周邊如喇叭、麥克風與 GPIO，在基礎的應用中，可搭配 Google Cloud 的語音識別服務，方便開發者更快地上手，詳細的資訊可以參考[官方網站](https://aiyprojects.withgoogle.com/voice-v1/)或是這篇[介紹文](https://makerpro.cc/2018/05/google-aiy-for-maker/)。
 
 本次 PIXNET HACKATHON 提供給參賽者的套件為 **Voice Kit 1.0** 版本[註1]，預計在 **7月第四週** 提供給報名錄取的參賽隊伍[註2]，除了使用PIXNET提供的開發套件，參賽者也可以選擇使用或整合自己的軟/硬體裝置。
