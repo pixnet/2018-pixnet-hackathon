@@ -10,8 +10,7 @@ from keras.layers import (
 )
 from keras.utils import plot_model
 from keras.layers.normalization import BatchNormalization
-from keras.layers.merge import concatenate, add, multiply
-from keras.layers import merge
+from keras.layers.merge import concatenate
 from keras.models import Model
 import keras.backend as K
 
@@ -238,7 +237,20 @@ class CompletionBuilder(GraphBuilder):
             in zip(dilate_n_filters, dilate_kernel_sizes, dilate_strides, dilate_dilation_rate)
         )
 
-        # TODO: two fxxking additional conv layers ...
+        # additional convolution stage
+        aconv_n_filters = [256, 256]
+        aconv_kernel_sizes = [3, 3]
+        aconv_strides = [1, 1]
+        aconv_layers = (
+            self._build_cell(Conv2D,
+                             n_filter,
+                             ksize,
+                             activation=self.activation,
+                             strides=strides,
+                             padding=padding)
+            for n_filter, ksize, strides
+            in zip(aconv_n_filters, aconv_kernel_sizes, aconv_strides)
+        )
 
         # deconvolution stage
         dconv_n_filters = [128, 128, 64, 32]
@@ -274,7 +286,7 @@ class CompletionBuilder(GraphBuilder):
             return chain.from_iterable(chain.from_iterable(ls))
 
         # pipe layers together
-        all_layers = _double_chain(conv_layers, dilate_layers, dconv_layers, out_layers)
+        all_layers = _double_chain(conv_layers, dilate_layers, aconv_layers, dconv_layers, out_layers)
         output_tensor = preprocessed_tensor
         for layer in all_layers:
             output_tensor = layer(output_tensor)
