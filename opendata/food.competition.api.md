@@ -1,6 +1,7 @@
 # 痞客神廚鬥味場開放 API 說明 (持續調整中)
 
 ###題目取得
+
 * Method: GET
 * EndPoint: /api/question
 * request params
@@ -44,7 +45,9 @@
 	```
 
 --
+
 ###答題
+
 * Method: POST
 * EndPoint: /api/answer
 * request params
