@@ -100,5 +100,5 @@
 
 ### 下載連結
 
-* ⏬[PIXFOOD20](https://storage.googleapis.com/2017-hackathon-data-download/2018-pixnet-hackathon/pixfood20.tar.gz)
+* ⏬[PIXFOOD20](https://drive.google.com/open?id=1_NzFmdAK5VmzzmggX8voPbQGPFaFKAbF)
 

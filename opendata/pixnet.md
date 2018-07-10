@@ -9,8 +9,8 @@
 資料格式        | jsonline
 壓縮檔大小      | 1.2 G
 檔案實際大小     | 5.8 G
-下載連結        | [這裡](https://storage.googleapis.com/content-mining/ncku_course/released/articles_200k.jl.gz) (1.2 G)
-樣本資料(100筆) | [這裡](https://storage.googleapis.com/content-mining/ncku_course/released/samples.jl) (3 M)
+下載連結        | [這裡](https://drive.google.com/open?id=1nRqyFQkg2fGyqv3PZgc3ocmSGmXUvAAe) (1.2 G)
+樣本資料(100筆) | [這裡](https://drive.google.com/file/d/1DqQzfIb8u7SybvhK8izZ3NUgb07EBsFL/view) (3 M)
 
 ### 資料範例
 ```json
