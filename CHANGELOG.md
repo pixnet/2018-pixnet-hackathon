@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2018-07-17` | replace [`api-test-tokens`](./opendata/ailabstw.md#api-tokens) for server issues
 `2018-07-10` | release [PMO datasets](./opendata/pmo.opendata.md)
 `2018-07-04` | release [`pixnet-top-articles`](./opendata/pixnet.md) dataset
 `2018-06-29` | add 10 [`api-test-tokens`](./opendata/ailabstw.md#api-tokens) for ailabs.tw's asr service

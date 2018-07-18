@@ -124,17 +124,8 @@ client <- server
 <a name="api-tokens"></a>
 ### API Token 試用:
 
-報名截止(7/20)之前，參賽者可以先利用以下 10 組 API Tokens 作測試，待正式報名錄取後，每一組參賽者會再額外發一組專屬 Token，請妥善保管。
+報名截止(7/20)之前，參賽者可以先利用以下 API Token 作測試，待正式報名錄取後，每一組參賽者會再額外發一組專屬 Token，請妥善保管。
 
-* 798FdUhfQkbrQbydgWkA
-* HdNjkqwnD7weQGhbeBdq
-* u4Weu3gA7o3dbwhdgaAs
-* Pi3I2Rhwbrbw15ugr7qw
-* O5LqQU1dIq9zq7e1fq3M
-* 98a2Sdv8kBKjqQwD9xAo
-* i3BfqolmDj91y1H3b1rT
-* 0wEtFq9724bbjh6I4wEy
-* oi1Nc4A67y12U6bKbQdf
-* D3pu2ZxkQJfn6OoiuLqw
+* JmcREGWCEzfs3TgVQeF3
 
 請欲報名之參賽者多加利用。
