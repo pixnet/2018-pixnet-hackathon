@@ -24,6 +24,7 @@ YouBike臺北市自行車場站資訊|YouBike臺北市自行車各借還站座�
 2. [⏬新北市政府交通局開放資料集](https://drive.google.com/open?id=17whcbw49bJzwARRxPc6bz7tKM1YFCzBM)
 
 項目      |內容介紹   |更新頻率    |資料時間起日    |資料時間迄日
+---------|:---------|:----------|:-------------|:-------
 YouBike新北市自行車場站資訊|YouBike新北市自行車場站資訊|||
 
 
