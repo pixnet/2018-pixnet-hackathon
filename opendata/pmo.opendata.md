@@ -32,12 +32,18 @@ YouBike新北市自行車場站資訊|YouBike新北市自行車場站資訊|||
 
 項目|內容介紹|更新頻率|資料時間起日|資料時間迄日
 ---------|:---------|:----------|:-------------|:-------
-北市公車靜態基本資料|北市公車靜態基本資料與Data.Taipei平台API說明文件||2018年1月1日|2018年6月15日
-雙北公車動態歷史資料|雙北市公車靜態基北資料與動態歷史資料與格式說明|每日|2018年1月1日|2018年6月15日
-新北公車靜態基本資料|新北公車靜態基本資料與Data.Taipei平台API說明文件||2018年1月1日|2018年6月15日
+[⏬北市公車靜態基本資料](https://drive.google.com/open?id=1KlATr-iCdHgCv-jGILICPAWBoVWJL_fl)|[資料說明文件](https://drive.google.com/a/pixnet.tw/file/d/1NG97Ih4U_XQ8gnkD1vUccuIVjPiDkUDN/view?usp=sharing)||2018年1月1日|2018年6月15日
+雙北公車動態歷史資料|[資料格式說明](https://drive.google.com/open?id=1qGzXNQsKBcjnqmvlpi2ptybKYLsv5ytX)|每日|2018年1月1日|2018年6月15日
+[⏬新北公車靜態基本資料](https://drive.google.com/open?id=1vhqPHJFGpP2QMCyc0SRnBaYkA83nmcqW)|[資料說明文件](https://drive.google.com/open?id=1f404sVnh7649NflK2BjRD_0tIXkBv6Na)||2018年1月1日|2018年6月15日
 
-* ℹ️此項目下載連結將 email 給報名錄取的參賽者
-* ℹ️樣本資料(100筆) ⚠️準備中
+* ℹ️雙北公車動態歷史資料內容龐大(解壓前: 180G, 解壓後超過 1T)，雲端下載連結將 email 給報名錄取的參賽者
+* ℹ️樣本資料: [ADPServerLog.2018-01-01.tar.xz](https://drive.google.com/open?id=1VG2Ad89XRgI_IOQeKjaZm8pHVdw3AoXd) 811MB
+
+	解壓縮方式參考：
+	```
+	$ mkdir -p ADPServerLog/2018-01-01
+	$ tar Jxvf ADPServerLog.2018-01-01.tar.xz -C ADPServerLog/2018-01-01
+	```
 
 
 ## 亞旭電腦股份有限公司

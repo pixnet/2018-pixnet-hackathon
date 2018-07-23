@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2018-07-23` | update [雙北公車動態資料說明](./opendata/pmo.opendata.md)
 `2018-07-23` | add [新北市政府交通局開放資料集](./opendata/pmo.opendata.md)
 `2018-07-23` | update food-ai readme: [how-pixnet-do-preprocessing-for-the-quiz](./food-ai/README.md#how-to-resize)
 `2018-07-17` | replace [`api-test-tokens`](./opendata/ailabstw.md#api-tokens) for server issues
