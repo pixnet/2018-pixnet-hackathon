@@ -4,7 +4,7 @@ Demo App for Voice Kit. Push the button, and say something, **ekko** will echo w
 
 ## Requirements
 
-0. This demo were only tested on Raspberry Pi 3 Model B+ (armv7l from `uname -a`), if you use RPI with older version, some configs/implementations may not be functional.
+0. This demo were only tested on Raspberry Pi 3 Model B+ (armv7l from `uname -a`), if you use RPI with older version, some configs/implementations may not work functionally.
 
 1. Download the [customized image](https://github.com/google/aiyprojects-raspbian/releases) for `AIY Kit`, and follow install guide from [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
