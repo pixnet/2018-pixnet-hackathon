@@ -29,10 +29,10 @@
           "desc":"今天想吃中式的早餐。煎得酥酥的餅皮加上滑順的蛋汁，最後林上甜甜鹹鹹的醬油，就決定這樣的早餐當作今天的開始了！",
           "image":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAEAAElEQVR4nET9SbMkW5IeiH2f6jlm5u53ihvTm1++HF5mZWGqQjXYEKLRh...(後略)",
           "bounding_area":[
-             "0,0",
-             "0,10",
-             "10,0",
-             "10,10"
+             "x": 160,
+             "y": 120,
+             "w": 80,
+             "h": 40
           ],
           "expire_at":60
        }
