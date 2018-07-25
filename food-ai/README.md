@@ -92,15 +92,15 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 
 	```
 	{
-		quiz_id: "q12",
+            question_id: "2",
+		desc: "今天想吃中式的早餐。煎得酥酥的餅皮加上滑順的蛋汁，最後林上甜甜鹹鹹的醬油，就決定這樣的早餐當作今天的開始了！",
+            image_b64: "/9j/4AAQSkZJRgABAQAASABIAAD...(略)"
 		bounding_box: {
 			"x": 160,
 			"y": 120,
 			"w": 80,
 			"h": 40
 		}
-		description: "這顆草莓瑞士捲，草莓沾著奶油吃起來香濃滑口，酸酸甜甜，搭配巧克力蛋糕，滋味絕妙。",
-		image_b64: "/9j/4AAQSkZJRgABAQAASABIAAD...(略)"
 	}
 	```
 
@@ -108,9 +108,9 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 <img src="./static/boundingbox.png" width="300" align="middle">
 
 * API 欄位說明：
-	* `quiz_id`: 題目編號(uuid)
+	* `question_id`: 題目編號(uuid)
 	* `bounding_box`: 見上圖定義
-	* `description`: 圖片中食物的文字描述
+	* `desc`: 圖片中食物的文字描述
 	* `image_b64`: 圖片的 base64 編碼
 
 * 詳細 API 說明請參考[ API 文件說明](../opendata/food.competition.api.md)
