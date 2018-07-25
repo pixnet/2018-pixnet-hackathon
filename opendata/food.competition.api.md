@@ -67,7 +67,7 @@
         }
     }
     ```
-* sample respose
+* sample response
 
     ```
     {
