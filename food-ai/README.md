@@ -92,9 +92,9 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 
 	```
 	{
-                question_id: "2",
+            question_id: "2",
 		desc: "今天想吃中式的早餐。煎得酥酥的餅皮加上滑順的蛋汁，最後林上甜甜鹹鹹的醬油，就決定這樣的早餐當作今天的開始了！",
-                image_b64: "/9j/4AAQSkZJRgABAQAASABIAAD...(略)"
+            image_b64: "/9j/4AAQSkZJRgABAQAASABIAAD...(略)"
 		bounding_box: {
 			"x": 160,
 			"y": 120,
