@@ -109,7 +109,7 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 
 * API 欄位說明：
 	* `question_id`: 題目編號(uuid)
-	* `bounding_box`: 見上圖定義
+	* `bounding_area`: 見上圖定義
 	* `desc`: 圖片中食物的文字描述
 	* `image_b64`: 圖片的 base64 編碼
 
