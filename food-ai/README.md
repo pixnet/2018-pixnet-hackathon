@@ -77,7 +77,7 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 ## 競賽平台: 痞客邦神廚鬥味場
 * 競賽平台預計於 **`7/30`** 對外開放給參賽者測試使用，請參賽者密切注意。
 
-* 每組通過報名審核之參賽隊伍，將透過 email 寄送一組 API Token(預計 **`7/30`** 發放)，作為接收題目與上傳答案的身份驗證，請妥善保管好自己的 API Token。
+* 每組通過報名審核之參賽隊伍，將在 telegram 發送一組 API Token(預計 **`7/30`** 發放)，作為接收題目與上傳答案的身份驗證，請妥善保管好自己的 API Token。
 
 
 
