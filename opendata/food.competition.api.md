@@ -6,7 +6,7 @@
 * EndPoint: /api/question
 * request params
     * question_id: (int) 題號, default: newest
-    * img_header: (bool) 是否顯示圖片 header 資訊 1-顯示, 0-不顯示, default: 0
+    * img_header: (bool) 是否顯示圖片 header 資訊 1-不顯示, 0-顯示, default: 0
 * return value
     * question_id: 題號
     * desc: 題目敘述
