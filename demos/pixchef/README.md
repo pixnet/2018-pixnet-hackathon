@@ -18,21 +18,32 @@ $ python -m pixchef.models
 
 1. To get the summaries/visuilizations of the models, run:
 
-    `python -m pixchef.models`
+    `$ python -m pixchef.models`
 
     The results will be stored in `graphs/`.
 
 2. Place your data in `data/` folder, and start training the model:
 
-    `python -m pixchef.training`
+    `$ python -m pixchef.training`
 
     evaluation results will be placed in `evaluate/` folder.
 
 3. `test_models.py` will output image processing results from some stages(layers) in the model pipeline for debugging purpose and giving some intuition.
 
-    `python -m pixchef.test_models`
+    `$ python -m pixchef.test_models`
 
     results will be placed in `temp/` folder.
+
+4. Test discriminator:
+
+    ```
+    $ python -m pixchef.test_global_discriminator
+    $ python -m pixchef.test_local_discriminator
+    $ python -m pixchef.test_discriminator
+    ```
+
+    Accuracy should converge to 1.
+
 
 ### Requirements for Python
 
