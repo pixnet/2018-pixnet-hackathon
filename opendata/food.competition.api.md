@@ -16,7 +16,7 @@
 * sample request
 
     ```
-    GET /api/question?question_id=2
+    curl -X GET "https://pixnethackathon2018-competition.events.pixnet.net/api/question?question_id=1"
     ```
 * sample respose
 
@@ -25,7 +25,7 @@
        "error":false,
        "status":200,
        "data":{
-          "question_id":2,
+          "question_id":1,
           "desc":"今天想吃中式的早餐。煎得酥酥的餅皮加上滑順的蛋汁，最後林上甜甜鹹鹹的醬油，就決定這樣的早餐當作今天的開始了！",
           "image":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAIAAADTED8xAAEAAElEQVR4nET9SbMkW5IeiH2f6jlm5u53ihvTm1++HF5mZWGqQjXYEKLRh...(後略)",
           "bounding_area": {
@@ -41,9 +41,6 @@
 
 * example
 
-    ```
-    curl -X GET "/api/question?question_id=2"
-    ```
 
 ## 答題
 
@@ -59,14 +56,7 @@
 * sample request
 
     ```
-    POST /api/answer
-    {
-        {
-            "question_id" : 2,
-            "key" : YOUR_API_KEY,
-            "image" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAksAAAJCCAYAAADQsoPKAAAABHNCSV...(後略)"
-        }
-    }
+    curl -X POST -d '{"question_id": 1, "key": YOUR_API_KEY, "image": "data:image/png;base64,iVBORw0KCSV...(後略)"}' "https://pixnethackathon2018-competition.events.pixnet.net/api/answer"
     ```
 * sample response
 
@@ -82,6 +72,3 @@
     ```
 * example
 
-    ```
-    curl -X POST -d '{"question_id": 2, "key": YOUR_API_KEY, "image": "data:image/png;base64,iVBORw0KCSV...(後略)"}' "/api/answer"
-    ```
