@@ -41,9 +41,9 @@
 
 * example
 
-	```
-        curl -X GET "/api/question?question_id=2"
-	```
+    ```
+    curl -X GET "/api/question?question_id=2"
+    ```
 
 ## 答題
 
@@ -82,6 +82,6 @@
     ```
 * example
 
-	```
-        curl -X POST -d '{"question_id": 2, "key": YOUR_API_KEY, "image": "data:image/png;base64,iVBORw0KCSV...(後略)"}' "/api/answer"
-	```
+    ```
+    curl -X POST -d '{"question_id": 2, "key": YOUR_API_KEY, "image": "data:image/png;base64,iVBORw0KCSV...(後略)"}' "/api/answer"
+    ```
