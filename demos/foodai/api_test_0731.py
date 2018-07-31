@@ -74,7 +74,7 @@ def inpainting(quiz, debug=True):
     # gen_image = some_black_magic(quiz)
     #
     # ======================
-    gen_image = quiz.raw_image
+    gen_image = quiz.raw_image  # dummy inpainting
     print('=====================')
 
     return gen_image
@@ -129,7 +129,10 @@ parser = argparse.ArgumentParser(
         a. 將 API-TOKEN 如以下形式寫入某檔案，例如 .secrets.env 並存檔。
             export PIXNET_FOODAI_KEY=<YOUR-API-TOKEN>
         b. 執行:
-        $ bash -c "source .secrets.env; python api_test_0731.py --qid 1"''',
+        $ bash -c "source .secrets.env; python api_test_0731.py --qid 1"
+
+    API 文件：https://github.com/pixnet/2018-pixnet-hackathon/blob/master/opendata/food.competition.api.md
+    競賽平台位置：http://pixnethackathon2018-competition.events.pixnet.net/''',
     formatter_class=argparse.RawTextHelpFormatter
 )
 parser.add_argument('--qid', metavar='qid', nargs='?', type=int, default=1, help='題目編號(int)')

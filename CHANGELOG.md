@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2018-07-31` | add [api test sample](./demo/foodai/api_test_0731.py) for food-ai competetion
 `2018-07-27` | refactoring [pixchef](./demos/pixchef), and adding scripts for testing discriminators.
 `2018-07-24` | update [`ekko's readme document`](./demos/ekko)
 `2018-07-24` | fix [`api-test-tokens`](./opendata/ailabstw.md#api-tokens) for ailabs.tw's asr service
