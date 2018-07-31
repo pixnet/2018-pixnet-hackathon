@@ -1,4 +1,5 @@
 import os
+import json
 import argparse
 import warnings
 import requests
@@ -83,7 +84,7 @@ def inpainting(quiz, debug=True):
 # 上傳答案到 PIXNET
 def submit_image(image, question_id):
     print('Step 3: 上傳答案到 PIXNET\n')
-
+    print(question_id)
     endpoint = 'http://pixnethackathon2018-competition.events.pixnet.net/api/answer'
 
     key = os.environ.get('PIXNET_FOODAI_KEY')
@@ -94,7 +95,7 @@ def submit_image(image, question_id):
         f.seek(0)
         data = f.read()
         encoded_image = base64.b64encode(data)
-    image_b64string = b'data:image/jpeg;base64,' + encoded_image
+    image_b64string = 'data:image/jpeg;base64,' + encoded_image.decode('utf-8')
 
     payload = dict(question_id=question_id,
                    key=key,
