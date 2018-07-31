@@ -1,0 +1,3 @@
+requests
+attrs
+scikit-image
