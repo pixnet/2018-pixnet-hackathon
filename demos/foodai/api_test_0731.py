@@ -1,5 +1,5 @@
 import os
-import json
+import numpy as np
 import argparse
 import warnings
 import requests
@@ -8,6 +8,7 @@ import base64
 import attr
 import skimage.io as ski_io
 import skimage.color as ski_color
+import skimage.morphology as ski_morph
 
 
 @attr.s
@@ -61,12 +62,6 @@ def get_image(question_id, img_header=True):
 # 使用你的模型，補全影像
 def inpainting(quiz, debug=True):
 
-    if debug:
-        with warnings.catch_warnings():
-            warnings.simplefilter('ignore', category=UserWarning)
-            os.makedirs('temp', exist_ok=True)
-            ski_io.imsave('temp/raw_image.jpg', quiz.raw_image, quality=100)
-
     print('Step 2: 使用你的模型，補全影像\n')
     print('...')
     # Your code may lay here...
@@ -75,7 +70,33 @@ def inpainting(quiz, debug=True):
     # gen_image = some_black_magic(quiz)
     #
     # ======================
-    gen_image = quiz.raw_image  # dummy inpainting
+
+    # Demo: mean-color inpainting
+    raw_image = quiz.raw_image.copy()
+    bbox = quiz.bbox
+    mean_color = quiz.raw_image.mean(axis=(0, 1))  # shape: (3,)
+
+    raw_roi = raw_image[bbox['y']:bbox['y']+bbox['h'], bbox['x']:bbox['x']+bbox['w'], :]
+
+    mask = np.zeros(raw_image.shape[:2])
+    mask_roi = mask[bbox['y']:bbox['y']+bbox['h'], bbox['x']:bbox['x']+bbox['w']]
+
+    to_filling = (raw_roi[:, :, 1] == 255) & (raw_roi[:, :, 0] < 10) & (raw_roi[:, :, 2] < 10)
+    mask_roi[to_filling] = 1
+
+    mask = ski_morph.dilation(mask, ski_morph.square(7))
+    mask = np.expand_dims(mask, axis=-1)
+
+    gen_image = (raw_image * (1 - mask) + mean_color * mask).astype(np.uint8)
+
+    if debug:
+        with warnings.catch_warnings():
+            warnings.simplefilter('ignore', category=UserWarning)
+            os.makedirs('temp', exist_ok=True)
+            ski_io.imsave('temp/raw_image.jpg', raw_image, quality=100)
+            ski_io.imsave('temp/mask.jpg', mask[:, :, 0], quality=100)
+            ski_io.imsave('temp/gen_image.jpg', gen_image, quality=100)
+
     print('=====================')
 
     return gen_image
@@ -84,7 +105,7 @@ def inpainting(quiz, debug=True):
 # 上傳答案到 PIXNET
 def submit_image(image, question_id):
     print('Step 3: 上傳答案到 PIXNET\n')
-    print(question_id)
+
     endpoint = 'http://pixnethackathon2018-competition.events.pixnet.net/api/answer'
 
     key = os.environ.get('PIXNET_FOODAI_KEY')
