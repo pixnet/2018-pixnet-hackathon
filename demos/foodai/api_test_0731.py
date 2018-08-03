@@ -37,10 +37,8 @@ def get_image(question_id, img_header=True):
         )
 
         header = encoded_image[:encoded_image.find(',')]
-        if 'png' in header:
-            raw_image = ski_color.rgba2rgb(raw_image)
-        elif 'jpeg' not in header:
-            raise ValueError('Image should be PNG or JPG format')
+        if 'bmp' not in header:
+            raise ValueError('Image should be BMP format')
 
         print('題號：', question_id)
         print('文字描述：', description)
@@ -110,13 +108,14 @@ def submit_image(image, question_id):
 
     key = os.environ.get('PIXNET_FOODAI_KEY')
 
-    # Image format should be jpeg
+    # Assign image format
+    image_format = 'jpeg'
     with BytesIO() as f:
-        ski_io.imsave(f, image)
+        ski_io.imsave(f, image, format_str=image_format)
         f.seek(0)
         data = f.read()
         encoded_image = base64.b64encode(data)
-    image_b64string = 'data:image/jpeg;base64,' + encoded_image.decode('utf-8')
+    image_b64string = 'data:image/{};base64,'.format(image_format) + encoded_image.decode('utf-8')
 
     payload = dict(question_id=question_id,
                    key=key,
