@@ -83,7 +83,8 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 
 <a name="how-to-battle"></a>
 ### 比賽方式
-* 平台示意圖:
+
+#### [🥊 HACKAHTON競賽平台](https://pixnethackathon2018-competition.events.pixnet.net/)
 
 <img src="./static/competition-web.png" width="500" align="middle">
 
