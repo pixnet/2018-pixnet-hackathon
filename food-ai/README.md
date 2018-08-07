@@ -84,9 +84,11 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 <a name="how-to-battle"></a>
 ### 比賽方式
 * 平台示意圖:
-`TODO`: ⚠️準備中
 
-1. 比賽以 **回合制** 進行，無分初、決賽，一共 `20` 個回合，總計 `20` 張圖片。
+<img src="./static/competition-web.png" width="500" align="middle">
+
+
+1. 比賽以 **回合制** 進行，無分初、決賽，一共 `10` 個回合，總計 `10` 張圖片。
 2. 每一回合競賽平台會更新一組題目，並呈現在頁面上。
 3. 題目由一段`文字描述`與`缺空的食物圖片`組成，圖片尺寸固定為 **`256 x 256`** [註1](#how-to-resize)，並被包裝成`JSON`格式如下：
 
@@ -151,6 +153,8 @@ PIXNET 參考了 [Globally and Locally Consistent Image Completion](http://hi.cs
 1. 參與投票的觀眾必須在 **PIXNET** 平台註冊一組帳號，驗證通過後即可使用此帳號登入本平台。
 2. 每張由參賽者產生的圖片上會有三個可點選的按鈕，👍、🤤、💩，觀眾可任意點選。
 3. 平台將統計每隊所得 👍 總數，作為得獎依據，其他按鈕不予計分。
+
+* ⚠️NOTE：此處圖示僅為示意，正確投票圖示以競賽平台顯示為準。
 
 
 ### API說明
