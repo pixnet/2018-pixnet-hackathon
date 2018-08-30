@@ -1,17 +1,16 @@
 import os
-import warnings
 import random
+import warnings
+
 import numpy as np
 import skimage.io as ski_io
 from keras.layers import Input
 from keras.preprocessing.image import ImageDataGenerator
+
+from .envs import (PJ, ckpt_dir, data_dir, discriminator_loss, evaluate_dir,
+                   generator_loss, glcic_alpha)
+from .helpers import FixMaskGenerator, RandomMaskGenerator
 from .models import GLCICBuilder
-from .helpers import RandomMaskGenerator, FixMaskGenerator
-from .envs import (
-    PJ, data_dir, evaluate_dir, ckpt_dir,
-    generator_loss, discriminator_loss,
-    glcic_alpha
-)
 
 os.makedirs(evaluate_dir, exist_ok=True)
 os.makedirs(ckpt_dir, exist_ok=True)
@@ -30,6 +29,11 @@ def evaluate(x_test, completion_net, w=32, h=32):
             union_results[q:q+h, p:p+w, :] = eval_images[0, q:q+h, p:p+w, :]
 
     return union_results
+
+
+
+
+
 
 
 def training(x_train, x_test=None, init_iters=1,
