@@ -2,7 +2,6 @@ import os
 from itertools import chain
 import warnings
 import numpy as np
-
 from keras.layers import (
     Lambda, Flatten, Activation,
     Conv2D, Conv2DTranspose,
